@@ -7,7 +7,7 @@
 function hasWrapper(el) {
   return !!el.firstElementChild && window.getComputedStyle(el.firstElementChild).display === 'block';
 }
-  
+
 export default function decorate(block) {
   [...block.children].forEach((row) => {
     // decorate accordion item label
@@ -31,4 +31,3 @@ export default function decorate(block) {
     row.replaceWith(details);
   });
 }
-  
