@@ -31,3 +31,4 @@ function hasWrapper(el) {
       row.replaceWith(details);
     });
   }
+  
