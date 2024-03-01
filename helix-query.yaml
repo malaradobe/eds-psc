@@ -6,7 +6,7 @@ indices:
     include:
       - /**
       - /us/**
-    target: /query-index
+    target: /query-index.json
     properties:
       lastModified:
         select: none
