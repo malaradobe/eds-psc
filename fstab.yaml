@@ -1,2 +1,4 @@
 mountpoints:
-  /: https://drive.google.com/drive/folders/12qHmy_LtAZF1MWQ6g8uR1OhUy48TAOIa
+  /:
+    url: https://content.da.live/malaradobe/eds-psc/
+    type: markup
